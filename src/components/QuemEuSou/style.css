@@ -58,25 +58,37 @@
 
 #who-am-i #text-side p {
     font-size: 22px;
-    padding:10px;
+    padding:0 10%;
     font-family: 'Comfortaa';
     color: #595959;
-    text-align: center;
+    text-align: justify;
+}
+.display-on-mobile {
+    display: none;
 }
 
 @media screen and (max-width:768px) {
+    .display-on-mobile {
+        display: inline;
+        font-size: 48px;
+        font-family: 'Comfortaa';
+        color: #595959;
+    }
     #who-am-i {
         height: auto;
         flex-direction: column;
     }
 
     #who-am-i #image-side, #who-am-i #text-side {
-        width:100%;
+        width:90%;
+    }
+    #who-am-i #text-side {
+        box-shadow: none;
+        background-color: transparent;
     }
 
     #who-am-i #text-side h2 {
-        font-size:42px;
-        margin: 0px;
+        display: none;
     }
 
     #who-am-i #text-side p {

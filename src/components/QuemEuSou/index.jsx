@@ -2,6 +2,7 @@ import './style.css'
 
 const QuemSouEu = () => (
     <section id="who-am-i">
+        <h2 class="display-on-mobile">Quem sou eu ?</h2>
         <div id="image-side">
             <div>
                 <img src="/images/perfil1.jpg" alt="" />
