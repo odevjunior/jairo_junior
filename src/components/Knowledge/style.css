@@ -1,0 +1,83 @@
+#knowledge {
+    width: 100%;
+    height:100vmin;
+    display:flex;
+}
+
+#knowledge div {
+    width:50%;
+}
+
+#knowledge #text-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    background-color: white;
+}
+
+#knowledge #text-side h2 {
+    font-size: 48px;
+    font-family: 'Comfortaa';
+    color: #595959;
+}
+
+#knowledge #text-side span {
+    font-size: 22px;
+    padding:0 10%;
+    font-family: 'Comfortaa';
+    color: #595959;
+    text-align: justify;
+}
+
+#knowledge #logos-side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width:55%;
+}
+
+
+#knowledge #logos-side .swiper-wrapper{
+    width:130%;
+    display: flex;
+    flex-direction: row;
+}
+
+#knowledge #logos-side img {
+    width:90%;
+    border-radius:10px;
+}
+
+#knowledge .swiper-container {
+    width:100%;
+    margin:0;
+}
+
+#knowledge .swiper-container .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#knowledge .swiper-container .swiper-slide span {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px){
+    #knowledge {
+        flex-direction: column;
+    }
+
+    #knowledge div {
+        width: 100% !important;
+    }
+}

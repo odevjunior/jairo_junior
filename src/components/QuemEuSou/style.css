@@ -29,11 +29,19 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top:-40px;
+
 }
 
 #who-am-i #image-side div:last-of-type img {
     width:47%;
     margin:10px;
+    z-index:-1
+}
+
+#who-am-i #image-side div:last-of-type img:last-of-type {
+    z-index:1;
+    margin-top:-100px
 }
 
 #who-am-i #image-side img {
@@ -41,6 +49,7 @@
     border-radius: 20px;
     padding:10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
 }
 
 #who-am-i #text-side {
