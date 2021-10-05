@@ -1,0 +1,52 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+#projects h2 {
+    font-size: 56px;
+    font-family: 'Comfortaa';
+    color: #595959;
+    font-weight: 600;
+    margin:0px;
+}
+
+#projects span {
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    color: #595959;
+    margin-bottom:2%;
+}
+
+#projects-section {
+    width: 95%;
+}
+
+#projects-section .project-slide {
+    border-radius:10px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#projects-section .project-slide h3 {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    font-size:36px
+}
+
+#projects-section img {
+    width:95%;
+    height: 90%;
+    border-radius:10px;
+    filter: opacity(0.85);
+}

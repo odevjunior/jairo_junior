@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import './style.css'
-//import 'swiper/css';
 
 const KnowLedge = () => {
     const knowledgeList = [[
@@ -46,14 +45,15 @@ const KnowLedge = () => {
                 <span>Isso é um pouco do que eu sei</span>
             </div>
             <div id="logos-side">
-                {knowledgeList.map(item => (
+                {knowledgeList.map((item, index) => (
                     <Swiper
                         spaceBetween={10}
-                        slidesPerView={'auto'}
+                        slidesPerView={2}
                         freeMode={true}
+                        key={index + 1}
                     >
-                    {item.map(item2 =>(
-                        <SwiperSlide className='knowledge-item'>
+                    {item.map((item2, index) =>(
+                        <SwiperSlide key={index + 1} className='knowledge-item'>
                             <img src={`/images/logos/${item2.logo}`} alt={`${item2.title} logo`} />
                             <span>{item2.title}</span>
                         </SwiperSlide>
