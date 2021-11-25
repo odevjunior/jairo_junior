@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function Projects() {
-    const [file, setFile] = useState("tcc.html");
+    const [file, setFile] = useState("files/first.pdf");
     const projects = [
         {
             name: '1. Introduçao',
@@ -48,7 +48,7 @@ export default function Projects() {
                     </select>
 
                     <select 
-                      className="md:hidden w-8/12  h-20 border-4 border-indigo-100 bg-indigo-500 rounded-lg shadow-xl text-indigo-100 mt-10a" 
+                      className="md:hidden w-12/12  h-20 border-4 border-indigo-100 bg-indigo-500 rounded-lg shadow-xl text-indigo-100 mt-10a" 
                       onChange={(e) => window.open(e.target.value, '_blank')}>
                         <option value="">Selecione uma opcao</option>
                         {projects.map((project,key) => (
