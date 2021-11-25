@@ -2,6 +2,7 @@ import Header from './components/Header'
 import WhoIAm from './components/WhoIAm'
 import Knowledge from './components/Knowledge'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <WhoIAm/>
       <Knowledge/>
       <Projects/>
+      <Footer/>
     </div>
   )
 }

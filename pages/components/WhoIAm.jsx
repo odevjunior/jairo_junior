@@ -9,7 +9,7 @@ export default function WhoIAm() {
                     <img src="/perfil2.jpeg" alt="" className="w-72 h-72 rounded-3xl shadow-lg m-4 border-4 border-white animate__animated animate__fadeInTopLeft"/>
                     <img src="/perfil3.jpeg" alt="" className="w-72 h-72 rounded-3xl shadow-lg m-4 border-4 border-white animate__animated animate__fadeInTopRight"/>
                     <img src="/perfil4.jpeg" alt="" className="w-72 h-72 rounded-3xl shadow-lg m-4 border-4 border-white animate__animated animate__fadeInBottomLeft"/>
-                    <img src="/perfil4.jpeg" alt="" className="w-72 h-72 rounded-3xl shadow-lg m-4 border-4 border-white animate__animated animate__fadeInBottomRight"/>
+                    <img src="/perfil5.jpg" alt="" className="w-72 h-72 rounded-3xl shadow-lg m-4 border-4 border-white animate__animated animate__fadeInBottomRight"/>
                 </div>
 
                 <Swiper 
