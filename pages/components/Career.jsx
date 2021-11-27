@@ -42,13 +42,13 @@ export default function Career() {
                                 src={job.photo} alt="" />
                         </div>
                     </div>
-                    <div id={`tooltip-${job.id}`} role="tooltip" class="tooltip absolute z-10 inline-block bg-white font-medium shadow-sm text-gray-900 border border-4 border-indigo-500 shadow-lg py-2 px-3 text-sm rounded-lg opacity-0 invisible">
+                    <div id={`tooltip-${job.id}`} role="tooltip" className="tooltip absolute z-10 inline-block bg-white font-medium shadow-sm text-gray-900 border border-4 border-indigo-500 shadow-lg py-2 px-3 text-sm rounded-lg opacity-0 invisible">
                         <span className="font-black text-base text-indigo-500">{job.companyName}</span>
                         <br />
                         <p className="w-48">{job.description}</p>
                         <br />
                         <span className="font-black text-base text-indigo-500">{job.year}</span>
-                        <div class="tooltip-arrow" data-popper-arrow></div>
+                        <div className="tooltip-arrow" data-popper-arrow></div>
                     </div>
                     <div className="w-10 h-2 bg-indigo-500 self-center -m-1"></div>
                 </>
