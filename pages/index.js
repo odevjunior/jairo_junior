@@ -1,4 +1,4 @@
-import '@themesberg/flowbite';
+//import '@themesberg/flowbite';
 import Header from './components/Header'
 import WhoIAm from './components/WhoIAm'
 import Knowledge from './components/Knowledge'
