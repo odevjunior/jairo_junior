@@ -26,31 +26,30 @@ export default function Career() {
             id:"meli",
             description:"Agora sou desenvolvedor backend criando aplicaçoes escalaveis e focadas em performance, usando Kotlin e o mais novo framework chamado Micronaut",
             year:"05/2021",
-            photo:"https://seeklogo.com/images/M/mercado-livre-logo-D1DC52B13E-seeklogo.com.png"
+            photo:"https://static.vagas.com.br/portais-de-carreira/images/components/minicards/original/mercado-livre-logo.png?1621549466"
         },
     ]
     return (
-        <div className="h-96 flex flex-col justify-center align-center mb-32" id="career">
+        <div className="flex flex-col justify-center align-center mb-32" id="career">
             <h1 className="font-semibold text-5xl text-indigo-500 text-center md:my-10">Carreira</h1>
-            <div className="flex flex-row justify-center align-center">
+            <div className="flex flex-col md:flex-row justify-center align-center">
             {jobs.map(job => (
                 <>
-                    <div className="w-10 h-2 bg-indigo-500 self-center -m-1"></div>
-                    <div className="w-40 h-40 rounded-full bg-indigo-500 flex flex-col justify-center align-center"  data-tooltip-target={`tooltip-${job.id}`}  data-tooltip-placement="bottom" data-tooltip-style="light">
-                        <div className="w-36 h-36 rounded-full bg-white self-center flex p-1" >
-                            <img className="w-22 self-center"
-                                src={job.photo} alt="" />
+                    
+                    <div className="flex flex-col my-5 md:my-0 mx-10 shadow-2xl rounded-lg">
+                        <div className="w-full h-40 rounded-lg bg-indigo-500 flex flex-col justify-center align-center mb-5">
+                            <div className="w-11/12 h-36 rounded-lg bg-white self-center flex p-1" >
+                                <img className="w-full self-center"
+                                    src={job.photo} alt="" />
+                            </div>
+                        </div>
+                        <div className="p-4 h-64 flex flex-col justify-between align-center">
+                            <div className="font-black text-base text-indigo-500">{job.companyName}</div>
+                            <div className="w-48">{job.description}</div>
+                            <div className="font-black text-base text-indigo-500">{job.year}</div>
                         </div>
                     </div>
-                    <div id={`tooltip-${job.id}`} role="tooltip" className="tooltip absolute z-10 inline-block bg-white font-medium shadow-sm text-gray-900 border border-4 border-indigo-500 shadow-lg py-2 px-3 text-sm rounded-lg opacity-0 invisible">
-                        <span className="font-black text-base text-indigo-500">{job.companyName}</span>
-                        <br />
-                        <p className="w-48">{job.description}</p>
-                        <br />
-                        <span className="font-black text-base text-indigo-500">{job.year}</span>
-                        <div className="tooltip-arrow" data-popper-arrow></div>
-                    </div>
-                    <div className="w-10 h-2 bg-indigo-500 self-center -m-1"></div>
+                    
                 </>
             ))}
                 
