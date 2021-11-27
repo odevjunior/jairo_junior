@@ -3,12 +3,14 @@ export default function Header() {
 
     return (
         <section id="header" className="bg-gray-300 w-full h-screen flex justify-center align-center">
-            <div id="header-menu" className="w-11/12 flex self-center flex-row justify-center fixed inset-x-0 top-0 bg-white shadow-lg z-10 rounded-lg ml-20 mt-3">
+            <div id="header-menu" className="w-full flex self-center flex-row justify-center fixed inset-x-0 top-0 bg-white shadow-lg z-10 p-3">
                 <div className="md:flex flex-row justify-center my-1 hidden">
                     <a href="#who-am-i" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Quem sou eu</a>
                     <a href="#knowledge" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Conhecimentos</a>
+                    <a href="#career" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Career</a>
+                    <a href="#contact" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Contatos</a>
                     <a href="#projects" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">TCC</a>
-                    <a href="#" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Contatos</a>
+                    <a href="#fatec" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Fatec</a>
                 </div>
             </div>
             <div id="banner" className="w-full flex justify-center align-center flex-col md:flex-row h-full bg-gradient-to-r from-indigo-700 to-indigo-400">

@@ -1,8 +1,12 @@
+import '@themesberg/flowbite';
 import Header from './components/Header'
 import WhoIAm from './components/WhoIAm'
 import Knowledge from './components/Knowledge'
 import Projects from './components/Projects'
-import Footer from './components/Footer'
+import Contacts from './components/Contacts'
+import FatecBox from './components/FatecBox'
+import Career from './components/Career'
+import Menu from './components/Menu';
 
 export default function Home() {
   return (
@@ -10,8 +14,10 @@ export default function Home() {
       <Header/>
       <WhoIAm/>
       <Knowledge/>
-      <Projects/>
-      <Footer/>
+      <Career/>
+      <Contacts/>
+      <Projects/>      
+      <FatecBox/>
     </div>
   )
 }

@@ -12,6 +12,7 @@
     "@dogstudio/highway": "^2.2.1",
     "@splidejs/react-splide": "^0.6.5",
     "@swup/scroll-plugin": "^1.1.0",
+    "@themesberg/flowbite": "^1.1.1",
     "animate.css": "^4.1.1",
     "embla-carousel-react": "^5.0.1",
     "next": "11.1.2",
