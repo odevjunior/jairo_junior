@@ -6,7 +6,6 @@ import Projects from './components/Projects'
 import Contacts from './components/Contacts'
 import FatecBox from './components/FatecBox'
 import Career from './components/Career'
-import Menu from './components/Menu';
 
 export default function Home() {
   return (
