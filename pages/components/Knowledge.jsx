@@ -47,9 +47,9 @@ export default function Knowledge() {
         
     ];
     return(
-        <section id="knowledge" className="bg-gradient-to-r to-indigo-700 from-indigo-400 w-full flex flex-col justify-center align-center">
-            <h1 className="font-semibold text-5xl text-white text-center my-10">Conhecimentos</h1>
-            <div className="flex flex-row flex-wrap justify-center align-center self-center w-full md:w-1/2 mb-10">
+        <section id="knowledge" className="bg-gradient-to-r to-indigo-700 from-indigo-400 w-full flex flex-row justify-center align-center py-10">
+            <h1 className="font-semibold text-5xl text-white text-center my-10 w-5/12 self-center">Conhecimentos</h1>
+            <div className="flex flex-row flex-wrap justify-center align-center self-center w-full md:w-7/12 mb-10">
                 {images.map((image, key) => (
                     <div className=" w-36 h-44 md:w-44 md:h-48 p-4 flex flex-col text-center rounded-2xl shadow-lg m-4 bg-indigo-50 flex justify-center align-center" key={key}>
                         <img src={image.logo} alt="" className="w-full" />

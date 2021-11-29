@@ -33,7 +33,7 @@ export default function Projects() {
     ];
 
     return (
-        <section id="projects" className="projects w-full">
+        <section id="projects" className="projects w-full pt-10">
             <h1 className="hidden md:block font-semibold text-5xl text-indigo-500 text-center md:my-14">Trabalho de Conclusão de Curso</h1>
             <h1 className="md:hidden font-semibold text-5xl text-indigo-500 text-center md:my-14">TCC</h1>
 

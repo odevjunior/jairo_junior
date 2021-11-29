@@ -30,7 +30,7 @@ export default function Career() {
         },
     ]
     return (
-        <div className="flex flex-col justify-center align-center mb-32" id="career">
+        <div className="flex flex-col justify-center align-center mb-32 py-10" id="career">
             <h1 className="font-semibold text-5xl text-indigo-500 text-center md:my-10">Carreira</h1>
             <div className="flex flex-col md:flex-row justify-center align-center">
             {jobs.map(job => (
