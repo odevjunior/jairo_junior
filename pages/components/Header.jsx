@@ -7,7 +7,7 @@ export default function Header() {
                 <div className="md:flex flex-row justify-center my-1 hidden">
                     <a href="#who-am-i" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Quem sou eu</a>
                     <a href="#knowledge" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Conhecimentos</a>
-                    <a href="#career" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Career</a>
+                    <a href="#career" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Carreira</a>
                     <a href="#contact" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Contatos</a>
                     <a href="#projects" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">TCC</a>
                     <a href="#fatec" className="md:mx-2 hover:text-indigo-900 text-indigo-500 font-medium md:text-lg">Fatec</a>
