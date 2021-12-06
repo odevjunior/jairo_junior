@@ -40,7 +40,7 @@ export default function Projects() {
             <div className="w-full h-full flex flex-col md:flex-row align-center justify-center mb-14">
                 <div className="left-side w-full md:w-4/12 flex flex-col flex-wrap align-center justify-center">
                     <h2 className="hidden md:block font-semibold text-3xl text-indigo-500 text-center m-0">Escolha Um Capitulo</h2>
-                    <select className="hidden md:block m-10 w-10/12 h-10 border-4 border-indigo-100 bg-indigo-500 rounded-lg shadow-xl text-indigo-100" onChange={(e) => setFile(e.target.value)}>
+                    <select className="hidden md:block m-10 w-10/12 h-30 border-4 border-indigo-100 bg-indigo-500 rounded-lg shadow-xl text-indigo-100" onChange={(e) => setFile(e.target.value)}>
                         <option value="">Selecione uma opcao</option>
                         {projects.map((project,key) => (
                             <option value={project.source} className="text-indigo-50" key={key}>{project.name}</option>
@@ -48,7 +48,7 @@ export default function Projects() {
                     </select>
 
                     <select 
-                      className="md:hidden w-12/12  h-30 border-4 border-indigo-100 bg-indigo-500 rounded-lg shadow-xl text-indigo-100 mt-10" 
+                      className="md:hidden w-12/12 h-30 border-4 border-indigo-100 bg-indigo-500 rounded-lg shadow-xl text-indigo-100 mt-10" 
                       onChange={(e) => window.open(e.target.value, '_blank')}>
                         <option value="">Selecione uma opcao</option>
                         {projects.map((project,key) => (
