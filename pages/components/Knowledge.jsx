@@ -1,3 +1,5 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 export default function Knowledge() {
     const images = [
         {
@@ -47,9 +49,9 @@ export default function Knowledge() {
         
     ];
     return(
-        <section id="knowledge" className="bg-gradient-to-r to-indigo-700 from-indigo-400 w-full flex flex-row justify-center align-center py-10">
-            <h1 className="font-semibold text-5xl text-white text-center my-10 w-5/12 self-center">Conhecimentos</h1>
-            <div className="flex flex-row flex-wrap justify-center align-center self-center w-full md:w-7/12 mb-10 px-10">
+        <section id="knowledge" className="bg-gradient-to-r to-indigo-700 from-indigo-400 w-full flex flex-col md:flex-row justify-center align-center py-10">
+            <h1 className="font-semibold text-5xl text-white text-center md:my-10 md:w-5/12 self-center">Conhecimentos</h1>
+            <div className="hidden md:flex flex-row flex-wrap justify-center align-center self-center w-full md:w-7/12 mb-10 px-10">
                 {images.map((image, key) => (
                     <div className=" w-36 h-44 md:w-44 md:h-48 p-4 flex flex-col text-center rounded-2xl shadow-lg m-4 bg-indigo-50 flex justify-center align-center" key={key}>
                         <img src={image.logo} alt="" className="w-full" />
@@ -57,6 +59,20 @@ export default function Knowledge() {
                     </div>
                 ))}
             </div>
+            <Swiper 
+                  className="w-screen h-1/2 md:hidden"
+                  slidesPerView ={2}
+                  autoplay ={true}
+                  freeMode={true}
+                  loop={true}
+                >
+                    {images.map((image, key) => (
+                        <SwiperSlide className="w-28 h-30 md:w-44 md:h-48 p-4 flex flex-col text-center rounded-2xl shadow-lg m-4 bg-indigo-50 flex justify-center align-center" key={key}s>
+                                <img src={image.logo} alt="" className="w-full" />
+                                <span className="font-medium text-xl mt-510 text-indigo-500 text-center">{image.name}</span>
+                        </SwiperSlide>                     
+                    ))}
+                </Swiper>
         </section>
     )
 }

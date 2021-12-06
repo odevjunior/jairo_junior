@@ -22,7 +22,7 @@ export default function WhoIAm() {
                     <SwiperSlide><img src="/perfil2.jpeg" alt="" className="w-44 h-44 rounded-2xl shadow-xl m-4 border-4" /></SwiperSlide>
                     <SwiperSlide><img src="/perfil3.jpeg" alt="" className="w-44 h-44 rounded-2xl shadow-xl m-4 border-4"/></SwiperSlide>
                     <SwiperSlide><img src="/perfil4.jpeg" alt="" className="w-44 h-44 rounded-2xl shadow-xl m-4 border-4"/></SwiperSlide>
-                    <SwiperSlide><img src="/perfil4.jpeg" alt="" className="w-44 h-44 rounded-2xl shadow-xl m-4 border-4"/></SwiperSlide>
+                    <SwiperSlide><img src="/perfil5.jpg" alt="" className="w-44 h-44 rounded-2xl shadow-xl m-4 border-4"/></SwiperSlide>
                 </Swiper>
             </div>
             <div className="p-3 mb-5 w-full md:w-1/2 flex flex-col justify-center align-center">
