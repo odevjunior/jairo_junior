@@ -23,7 +23,11 @@ export default function Projects() {
             source: 'files/fiveth.pdf'
         },
         {
-            name: '6. Projeto IMC com Flutter',
+            name: '6. Criação de protótipo de site para gestão de iniciações científicas',
+            source: 'files/seven.pdf'
+        },
+        {
+            name: '7. Projeto IMC com Flutter',
             source: 'files/sixth.pdf'
         },
         {
