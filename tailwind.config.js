@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     colors:{
       white: colors.white,
-      indigo: colors.blue,
+      indigo: colors.red,
       gray: colors.gray
     },
     extend: {},
